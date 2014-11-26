@@ -9,9 +9,11 @@
 	a:orientation="vertical">
 
 	<LinearLayout
+		a:background="@null"
 		a:layout_width="wrap_content"
 		a:layout_height="wrap_content"
-		a:orientation="horizontal">
+		a:orientation="horizontal"
+		a:layout_gravity="center">
 
 		<org.solovyev.android.material.MaterialButton
 			style="@style/MaterialButton"
@@ -28,9 +30,11 @@
 	</LinearLayout>
 
 	<LinearLayout
+		a:background="@null"
 		a:layout_width="wrap_content"
 		a:layout_height="wrap_content"
-		a:orientation="horizontal">
+		a:orientation="horizontal"
+		a:layout_gravity="center">
 
 		<org.solovyev.android.material.MaterialButton
 			style="@style/MaterialButton.Raised"
@@ -49,9 +53,11 @@
 	</LinearLayout>
 
 	<LinearLayout
+		a:background="@null"
 		a:layout_width="wrap_content"
 		a:layout_height="wrap_content"
-		a:orientation="horizontal">
+		a:orientation="horizontal"
+		a:layout_gravity="center">
 
 		<org.solovyev.android.material.MaterialButton
 			style="@style/MaterialButton.Raised"
@@ -70,9 +76,11 @@
 	</LinearLayout>
 
 	<LinearLayout
+		a:background="@null"
 		a:layout_width="wrap_content"
 		a:layout_height="wrap_content"
-		a:orientation="horizontal">
+		a:orientation="horizontal"
+		a:layout_gravity="center">
 
 		<org.solovyev.android.material.MaterialButton
 			style="@style/MaterialButton.Raised"
@@ -91,9 +99,11 @@
 	</LinearLayout>
 
 	<LinearLayout
+		a:background="@null"
 		a:layout_width="wrap_content"
 		a:layout_height="wrap_content"
-		a:orientation="horizontal">
+		a:orientation="horizontal"
+		a:layout_gravity="center">
 
 		<org.solovyev.android.material.MaterialButton
 			style="@style/MaterialButton.Raised"
@@ -112,9 +122,11 @@
 	</LinearLayout>
 
 	<LinearLayout
+		a:background="@null"
 		a:layout_width="wrap_content"
 		a:layout_height="wrap_content"
-		a:orientation="horizontal">
+		a:orientation="horizontal"
+		a:layout_gravity="center">
 
 		<org.solovyev.android.material.MaterialButton
 			style="@style/MaterialButton.Raised"
