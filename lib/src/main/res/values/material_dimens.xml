@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<dimen name="material_card_margin">3dp</dimen>
+
+	<!-- Default insets (outer padding) around buttons -->
+	<dimen name="button_inset_vertical">6dp</dimen>
+	<dimen name="button_inset_horizontal">@dimen/control_inset</dimen>
+	<!-- Default inner padding within buttons -->
+	<dimen name="button_padding_vertical">@dimen/control_padding</dimen>
+	<dimen name="button_padding_horizontal">8dp</dimen>
+
+	<!-- Default insets (outer padding) around controls -->
+	<dimen name="control_inset">4dp</dimen>
+	<!-- Default inner padding within controls -->
+	<dimen name="control_padding">4dp</dimen>
+	<!-- Default rounded corner for controls -->
+	<dimen name="control_corner">2dp</dimen>
+</resources>

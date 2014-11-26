@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<style name="MaterialTheme.NoActionBar" parent="android:Theme.Holo.Light.NoActionBar">
+		<item name="android:background">@color/material_bg</item>
+	</style>
+
+	<style name="MaterialTheme.NoActionBar.Fullscreen" parent="android:Theme.Holo.Light.NoActionBar.Fullscreen">
+		<item name="android:background">@color/material_bg</item>
+	</style>
+</resources>

@@ -1,0 +1,41 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+
+public int version_code() {
+    return 1
+}
+
+public String version_name() {
+    return '0.0.1'
+}
+
+public int android_sdk_version() {
+    return 21
+}
+
+public String android_build_tools_version() {
+    return '21.1.1'
+}
+
+public String android_min_sdk_version() {
+    return 9
+}
+
+buildscript {
+
+    repositories {
+        mavenCentral()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:0.12.2'
+    }
+}
+
+allprojects {
+    repositories {
+        def androidHome = System.getenv("ANDROID_HOME")
+        maven {
+            url "$androidHome/extras/android/m2repository/"
+        }
+        mavenCentral()
+    }
+}

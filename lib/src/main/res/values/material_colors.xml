@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<color name="material_bg">#eeeeee</color>
+	<color name="material_bg_pressed">#ebebeb</color>
+	<color name="material_disabled">#ffbababa</color>
+
+	<color name="material_blue">#33b5e5</color>
+	<color name="material_blue_disabled">#a8dff4</color>
+	<color name="material_blue_dark">#0099cc</color>
+
+	<color name="material_purple">#aa66cc</color>
+	<color name="material_purple_disabled">#ddbcee</color>
+	<color name="material_purple_dark">#9933cc</color>
+
+	<color name="material_green">#99cc00</color>
+	<color name="material_green_disabled">#d3e992</color>
+	<color name="material_green_dark">#669900</color>
+
+	<color name="material_yellow">#ffbb33</color>
+	<color name="material_yellow_disabled">#ffe3a0</color>
+	<color name="material_yellow_dark">#ff8800</color>
+
+	<color name="material_red">#ff4444</color>
+	<color name="material_red_disabled">#ffafaf</color>
+	<color name="material_red_dark">#cc0000</color>
+
+	<color name="material_text">#707070</color>
+	<color name="material_text_disabled">@color/material_disabled</color>
+
+	<color name="material_raised_button_text">#ffffff</color>
+
+	<color name="material_button">#d6d7d7</color>
+	<color name="material_button_pressed">#a4a4a4</color>
+	<color name="material_button_disabled">#e7e8e8</color>
+</resources>

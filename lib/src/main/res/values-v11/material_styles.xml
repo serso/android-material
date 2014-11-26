@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<style name="MaterialTheme" parent="android:Theme.Holo.Light">
+		<item name="android:background">@color/material_bg</item>
+	</style>
+
+	<style name="MaterialTheme.NoActionBar" parent="android:Theme.Holo.Light">
+		<item name="android:background">@color/material_bg</item>
+	</style>
+
+	<style name="MaterialTheme.NoActionBar.Fullscreen" parent="android:Theme.Holo.Light">
+		<item name="android:background">@color/material_bg</item>
+	</style>
+
+	<style name="MaterialTheme.Dialog" parent="android:Theme.Holo.Light.Dialog" />
+
+	<style name="MaterialTheme.Dialog.NoActionBar" parent="android:Theme.Holo.Light.Dialog.NoActionBar" />
+</resources>

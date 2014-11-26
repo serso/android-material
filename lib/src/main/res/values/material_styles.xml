@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<style name="MaterialTheme" parent="android:Theme.Light">
+		<item name="android:background">@color/material_bg</item>
+	</style>
+
+	<style name="MaterialTheme.NoActionBar" parent="android:Theme.Light">
+		<item name="android:background">@color/material_bg</item>
+	</style>
+
+	<style name="MaterialTheme.NoActionBar.Fullscreen" parent="android:Theme.Light">
+		<item name="android:background">@color/material_bg</item>
+	</style>
+
+	<style name="MaterialTheme.Dialog" parent="android:Theme.Light" />
+
+	<style name="MaterialTheme.Dialog.NoActionBar" parent="android:Theme.Light" />
+
+	<style name="MaterialCard">
+		<item name="android:layout_margin">@dimen/material_card_margin</item>
+		<item name="android:layout_width">match_parent</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:background">@drawable/material_card_selector</item>
+		<item name="android:clickable">false</item>
+		<item name="android:paddingTop">5dp</item>
+		<!-- bottom padding is bigger than top because of shadow-->
+		<item name="android:paddingBottom">8dp</item>
+		<item name="android:paddingLeft">7dp</item>
+		<item name="android:paddingRight">7dp</item>
+		<item name="android:gravity">left|center_vertical</item>
+	</style>
+
+	<style name="MaterialButton.Raised" parent="MaterialButton">
+		<item name="color">@color/material_button_blue_selector</item>
+		<item name="android:textColor">@color/material_raised_button_text_selector</item>
+	</style>
+
+	<style name="MaterialButton" parent="android:Widget.Button">
+		<item name="color">@color/material_button_selector</item>
+		<item name="android:textColor">@color/material_button_text_selector</item>
+	</style>
+</resources>
