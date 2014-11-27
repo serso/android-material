@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-	<declare-styleable name="MaterialButton">
-		<attr name="color" format="color|reference" />
+	<declare-styleable name="Material">
+		<attr name="materialColor" format="color" />
 	</declare-styleable>
 </resources>

@@ -4,7 +4,6 @@ import android.annotation.TargetApi;
 import android.content.Context;
 import android.content.res.ColorStateList;
 import android.content.res.Resources;
-import android.content.res.TypedArray;
 import android.graphics.PorterDuff;
 import android.graphics.drawable.Drawable;
 import android.graphics.drawable.GradientDrawable;
@@ -21,8 +20,7 @@ import javax.annotation.Nullable;
 @SuppressWarnings("UnusedDeclaration")
 public final class MaterialButton extends Button {
 
-	private ColorStateList colorList;
-	private boolean defaultColorList;
+	private final MaterialColor color = new MaterialColor(R.color.material_button_selector);
 
 	private boolean prepared;
 
@@ -48,22 +46,7 @@ public final class MaterialButton extends Button {
 	}
 
 	private void init(@Nonnull Context context, @Nullable AttributeSet attrs) {
-		final Resources resources = getResources();
-
-		if (attrs != null) {
-			final TypedArray a = context.obtainStyledAttributes(attrs, R.styleable.MaterialButton);
-			if (a.hasValue(R.styleable.MaterialButton_color)) {
-				colorList = a.getColorStateList(R.styleable.MaterialButton_color);
-			} else {
-				defaultColorList = true;
-				colorList = resources.getColorStateList(R.color.material_button_selector);
-			}
-			a.recycle();
-		} else {
-			defaultColorList = true;
-			colorList = resources.getColorStateList(R.color.material_button_selector);
-		}
-
+		color.init(context, attrs);
 		updateColor();
 	}
 
@@ -81,19 +64,18 @@ public final class MaterialButton extends Button {
 		}
 	}
 
-	public void setColor(@Nullable ColorStateList color) {
-		if (colorList.equals(color)) {
-			colorList = color;
+	public void setColor(@Nonnull ColorStateList color) {
+		if (this.color.setColorList(color)) {
 			updateColor();
 		}
 	}
 
 	@Nullable
 	private Drawable prepareDrawable(@Nullable Drawable drawable) {
-		if (drawable != null && !prepared && colorList != null) {
+		if (drawable != null && !prepared && color != null) {
 			if (isLollipop()) {
-				if (!defaultColorList) {
-					drawable.setColorFilter(colorList.getDefaultColor(), PorterDuff.Mode.SRC_IN);
+				if (!color.isDefaultColorList()) {
+					drawable.setColorFilter(color.getColorList().getDefaultColor(), PorterDuff.Mode.SRC_IN);
 				}
 			} else {
 				final Resources r = getResources();
@@ -116,7 +98,7 @@ public final class MaterialButton extends Button {
 	private void addState(@Nonnull StateListDrawable drawable, int... states) {
 		final Resources r = getResources();
 		final int defaultColor = r.getColor(R.color.material_button);
-		final int color = colorList.getColorForState(states, defaultColor);
+		final int color = this.color.getColorList().getColorForState(states, defaultColor);
 		drawable.addState(states, makeButtonShape(color));
 	}
 

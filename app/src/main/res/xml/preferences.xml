@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+	<org.solovyev.android.material.preferences.PreferenceCategory android:title="Category #1">
+
+		<org.solovyev.android.material.preferences.Preference
+			materialColor="@color/material_text_selector"
+			android:title="Setting #1" />
+
+		<org.solovyev.android.material.preferences.Preference
+			materialColor="@color/material_text_selector"
+			android:title="Setting #2" />
+
+		<org.solovyev.android.material.preferences.Preference
+			materialColor="@color/material_text_selector"
+			android:title="Setting #3" />
+
+	</org.solovyev.android.material.preferences.PreferenceCategory>
+
+	<org.solovyev.android.material.preferences.PreferenceCategory android:title="Category #2">
+		<org.solovyev.android.material.preferences.Preference
+			materialColor="@color/material_text_selector"
+			android:title="Setting #1" />
+
+		<org.solovyev.android.material.preferences.Preference
+			materialColor="@color/material_text_selector"
+			android:title="Setting #2" />
+
+		<org.solovyev.android.material.preferences.Preference
+			materialColor="@color/material_text_selector"
+			android:title="Setting #3" />
+	</org.solovyev.android.material.preferences.PreferenceCategory>
+
+</PreferenceScreen>

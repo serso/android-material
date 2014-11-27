@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<style name="AppTheme" parent="MaterialTheme.NoActionBar">
+		<item name="android:colorPrimary">@color/material_blue</item>
+		<item name="android:colorPrimaryDark">@color/material_blue_dark</item>
+		<item name="android:colorAccent">@color/material_blue</item>
+		<item name="android:statusBarColor">@color/material_status_bar</item>
+	</style>
+</resources>

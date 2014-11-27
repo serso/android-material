@@ -33,7 +33,7 @@
 	<style name="MaterialTheme.Dialog.NoActionBar" parent="android:Theme.Material.Light.Dialog.NoActionBar" />
 
 	<style name="MaterialButton.Raised" parent="MaterialButton">
-		<item name="color">@color/material_blue</item>
+		<item name="materialColor">@color/material_blue</item>
 		<item name="android:textColor">@color/material_raised_button_text_selector</item>
 	</style>
 

@@ -4,6 +4,8 @@
 	<color name="material_bg_pressed">#ebebeb</color>
 	<color name="material_disabled">#ffbababa</color>
 
+	<color name="material_status_bar">#616161</color>
+
 	<color name="material_blue">#33b5e5</color>
 	<color name="material_blue_disabled">#a8dff4</color>
 	<color name="material_blue_dark">#0099cc</color>
@@ -26,6 +28,7 @@
 
 	<color name="material_text">#707070</color>
 	<color name="material_text_disabled">@color/material_disabled</color>
+	<color name="material_text_pressed">#ff383838</color>
 
 	<color name="material_raised_button_text">#ffffff</color>
 
