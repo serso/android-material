@@ -72,7 +72,11 @@ public final class MaterialButton extends Button {
 		final Drawable newDrawable = prepareDrawable(oldDrawable);
 		if (oldDrawable != newDrawable) {
 			prepared = true;
-			setBackground(newDrawable);
+			if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.JELLY_BEAN) {
+				setBackground(newDrawable);
+			} else {
+				setBackgroundDrawable(newDrawable);
+			}
 			prepared = false;
 		}
 	}
