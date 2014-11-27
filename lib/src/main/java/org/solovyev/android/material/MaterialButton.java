@@ -121,6 +121,7 @@ public final class MaterialButton extends Button {
 		final Resources r = getResources();
 		final Drawable drawable = r.getDrawable(R.drawable.material_button_shape);
 		if (drawable instanceof GradientDrawable) {
+			drawable.mutate();
 			((GradientDrawable) drawable).setColor(color);
 		} else {
 			Log.e("Material", "Unable to set accent color for drawable.");
