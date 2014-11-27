@@ -2,6 +2,7 @@
 <resources>
 
 	<style name="AppTheme" parent="MaterialTheme.NoActionBar">
+		<item name="android:windowNoTitle">true</item>
 		<item name="android:colorPrimary">@color/material_blue</item>
 		<item name="android:colorPrimaryDark">@color/material_blue_dark</item>
 		<item name="android:colorAccent">@color/material_blue</item>
