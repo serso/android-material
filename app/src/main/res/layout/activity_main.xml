@@ -1,13 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<LinearLayout xmlns:a="http://schemas.android.com/apk/res/android"
-	xmlns:m="http://schemas.android.com/apk/res-auto"
-	style="@style/MaterialActivity">
+<LinearLayout
+	style="@style/MaterialActivity"
+	xmlns:a="http://schemas.android.com/apk/res/android"
+	xmlns:m="http://schemas.android.com/apk/res-auto">
 
-	<FrameLayout
+	<LinearLayout
 		a:layout_width="match_parent"
 		a:layout_height="0dp"
-		a:layout_weight="1">
+		a:layout_weight="1"
+		a:orientation="vertical"
+		a:gravity="center">
 
 		<LinearLayout
 			style="@style/MaterialCard"
@@ -146,7 +149,20 @@
 					m:materialColor="@color/material_button_green_selector" />
 			</LinearLayout>
 		</LinearLayout>
-	</FrameLayout>
+
+		<FrameLayout
+			style="@style/MaterialCard"
+			a:layout_width="wrap_content"
+			a:layout_height="wrap_content"
+			a:clickable="true"
+			a:layout_gravity="center">
+
+			<TextView
+				a:layout_width="wrap_content"
+				a:layout_height="wrap_content"
+				a:text="@string/clickable_card" />
+		</FrameLayout>
+	</LinearLayout>
 
 	<FrameLayout
 		a:id="@+id/buttons_container"

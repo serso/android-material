@@ -7,4 +7,5 @@
 	<string name="purple">Purple</string>
 	<string name="blue">Blue</string>
 	<string name="green">Green</string>
+	<string name="clickable_card">Clickable card</string>
 </resources>
