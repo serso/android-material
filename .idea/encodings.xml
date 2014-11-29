@@ -1,48 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding" useUTFGuessing="true" native2AsciiForPropertiesFiles="false">
-    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable-hdpi" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable-mdpi" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable-xhdpi" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/ic_setting_selector.xml" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_preferences.xml" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/app/src/main/res/xml/preferences.xml" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/lib/src/main/java/org/solovyev/android/material/MaterialButton.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/lib/src/main/java/org/solovyev/android/material/MaterialColor.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/lib/src/main/java/org/solovyev/android/material/preferences/ListPreference.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/lib/src/main/java/org/solovyev/android/material/preferences/Preference.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/lib/src/main/java/org/solovyev/android/material/preferences/PreferenceCategory.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/lib/src/main/java/org/solovyev/android/material/preferences/PreferenceManagerCompat.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/lib/src/main/java/org/solovyev/android/material/preferences/PreferencesFragment.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/lib/src/main/res/color/material_button_blue_selector.xml" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/lib/src/main/res/color/material_button_green_selector.xml" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/lib/src/main/res/color/material_button_purple_selector.xml" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/lib/src/main/res/color/material_button_red_selector.xml" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/lib/src/main/res/color/material_button_selector.xml" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/lib/src/main/res/color/material_button_text_selector.xml" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/lib/src/main/res/color/material_button_yellow_selector.xml" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/lib/src/main/res/color/material_raised_button_text_selector.xml" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/lib/src/main/res/color/material_text_selector.xml" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/lib/src/main/res/drawable-hdpi/material_card_background.9.png" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/lib/src/main/res/drawable-hdpi/material_card_background_more.9.png" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/lib/src/main/res/drawable-hdpi/material_preference_category.9.png" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/lib/src/main/res/drawable-mdpi/material_card_background.9.png" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/lib/src/main/res/drawable-mdpi/material_card_background_more.9.png" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/lib/src/main/res/drawable-mdpi/material_preference_category.9.png" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/lib/src/main/res/drawable-xhdpi/material_card_background.9.png" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/lib/src/main/res/drawable-xhdpi/material_card_background_more.9.png" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/lib/src/main/res/drawable-xhdpi/material_preference_category.9.png" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/lib/src/main/res/drawable-xxhdpi/material_card_background.9.png" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/lib/src/main/res/drawable-xxhdpi/material_card_background_more.9.png" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/lib/src/main/res/drawable-xxhdpi/material_preference_category.9.png" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/lib/src/main/res/drawable/material_button_shape.xml" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/lib/src/main/res/drawable/material_card_selector.xml" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/lib/src/main/res/drawable/material_clickable_selector.xml" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/lib/src/main/res/values-v21/material_styles.xml" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/lib/src/main/res/values-w820dp" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/lib/src/main/res/values/material_attrs.xml" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/lib/src/main/res/values/material_colors.xml" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/lib/src/main/res/values/material_styles.xml" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="PROJECT" charset="UTF-8" />
   </component>
 </project>
