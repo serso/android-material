@@ -12,6 +12,7 @@ import android.support.v4.app.ListFragment;
 import android.widget.ListView;
 
 import javax.annotation.Nonnull;
+import java.lang.ref.WeakReference;
 import java.lang.reflect.Constructor;
 import java.lang.reflect.Method;
 
@@ -22,16 +23,7 @@ public class PreferenceManagerCompat {
 	 */
 	private static final int FIRST_REQUEST_CODE = 100;
 	private static final int MSG_BIND_PREFERENCES = 0;
-	private final Handler uiHandler = new Handler() {
-		@Override
-		public void handleMessage(Message msg) {
-			switch (msg.what) {
-				case MSG_BIND_PREFERENCES:
-					bindPreferences();
-					break;
-			}
-		}
-	};
+	private final Handler uiHandler = new PreferenceHandler(this);
 
 	@Nonnull
 	private final PreferenceManager preferenceManager;
@@ -185,5 +177,27 @@ public class PreferenceManagerCompat {
 	public void onDestroyView() {
 		// leaving UI -> no need to bind preferences anymore
 		uiHandler.removeMessages(MSG_BIND_PREFERENCES);
+	}
+
+	private static class PreferenceHandler extends Handler {
+
+		@Nonnull
+		private final WeakReference<PreferenceManagerCompat> r;
+
+		private PreferenceHandler(@Nonnull PreferenceManagerCompat manager) {
+			r = new WeakReference<PreferenceManagerCompat>(manager);
+		}
+
+		@Override
+		public void handleMessage(Message msg) {
+			switch (msg.what) {
+				case MSG_BIND_PREFERENCES:
+					final PreferenceManagerCompat manager = r.get();
+					if (manager != null) {
+						manager.bindPreferences();
+					}
+					break;
+			}
+		}
 	}
 }

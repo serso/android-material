@@ -3,7 +3,8 @@
 <LinearLayout
 	style="@style/MaterialActivity"
 	xmlns:a="http://schemas.android.com/apk/res/android"
-	xmlns:m="http://schemas.android.com/apk/res-auto">
+	xmlns:m="http://schemas.android.com/apk/res-auto"
+	a:orientation="vertical">
 
 	<LinearLayout
 		a:layout_width="match_parent"
@@ -176,6 +177,7 @@
 			a:id="@+id/preferences_button"
 			a:layout_width="wrap_content"
 			a:layout_height="wrap_content"
+			a:contentDescription="@null"
 			a:src="@drawable/ic_setting_selector" />
 
 	</FrameLayout>
