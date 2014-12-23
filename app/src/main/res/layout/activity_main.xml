@@ -14,7 +14,7 @@
 		a:gravity="center">
 
 		<LinearLayout
-			style="@style/MaterialCard"
+			style="@style/MaterialCard.Padded"
 			a:layout_width="wrap_content"
 			a:layout_height="wrap_content"
 			a:layout_gravity="center"
@@ -152,7 +152,7 @@
 		</LinearLayout>
 
 		<FrameLayout
-			style="@style/MaterialCard"
+			style="@style/MaterialCard.Padded"
 			a:layout_width="wrap_content"
 			a:layout_height="wrap_content"
 			a:clickable="true"
@@ -167,7 +167,7 @@
 
 	<FrameLayout
 		a:id="@+id/buttons_container"
-		style="@style/MaterialCard"
+		style="@style/MaterialCard.Padded"
 		a:layout_width="wrap_content"
 		a:layout_height="wrap_content"
 		a:layout_gravity="bottom|end"

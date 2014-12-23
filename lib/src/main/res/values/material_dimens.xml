@@ -4,6 +4,8 @@
 	<dimen name="activity_vertical_margin">5dp</dimen>
 
 	<dimen name="material_card_margin">3dp</dimen>
+	<dimen name="material_card_padding_vertical">5dp</dimen>
+	<dimen name="material_card_padding_horizontal">7dp</dimen>
 
 	<!-- Default insets (outer padding) around buttons -->
 	<dimen name="button_inset_vertical">6dp</dimen>

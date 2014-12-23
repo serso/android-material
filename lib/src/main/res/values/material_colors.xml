@@ -3,6 +3,7 @@
 	<color name="material_bg">#eeeeee</color>
 	<color name="material_bg_pressed">#ebebeb</color>
 	<color name="material_disabled">#ffbababa</color>
+	<color name="material_ripple">#ffcacaca</color>
 
 	<color name="material_status_bar">#616161</color>
 

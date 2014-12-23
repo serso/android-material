@@ -2,7 +2,6 @@ package org.solovyev.android.material.preferences;
 
 import android.annotation.TargetApi;
 import android.content.Context;
-import android.content.res.Resources;
 import android.os.Build;
 import android.text.TextUtils;
 import android.util.AttributeSet;
@@ -44,7 +43,6 @@ public class Preference extends android.preference.Preference {
 		if (Build.VERSION.SDK_INT < Build.VERSION_CODES.HONEYCOMB && TextUtils.equals(Build.MANUFACTURER, "samsung")) {
 			final View summary = view.findViewById(android.R.id.summary);
 			if (summary instanceof TextView) {
-				final Resources r = view.getResources();
 				((TextView) summary).setTextColor(color.getColorList());
 			}
 		}
