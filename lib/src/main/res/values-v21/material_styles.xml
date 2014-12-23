@@ -22,9 +22,25 @@
 
 <resources>
 
-	<style name="MaterialTheme" parent="android:Theme.Material.Light" />
+	<style name="MaterialTheme" parent="android:Theme.Material.Light">
+		<item name="android:background">@null</item>
+		<item name="android:windowBackground">@color/material_bg</item>
+		<item name="android:listViewStyle">@style/MaterialListView</item>
+		<item name="android:textColor">@color/material_text_selector</item>
+		<item name="android:textColorPrimary">@color/material_text_selector</item>
+		<item name="android:textColorSecondary">@color/material_text_selector</item>
+		<item name="android:textColorTertiary">@color/material_text_selector</item>
+	</style>
 
-	<style name="MaterialTheme.NoActionBar" parent="android:Theme.Material.Light.NoActionBar" />
+	<style name="MaterialTheme.NoActionBar" parent="android:Theme.Material.Light.NoActionBar">
+		<item name="android:background">@null</item>
+		<item name="android:windowBackground">@color/material_bg</item>
+		<item name="android:listViewStyle">@style/MaterialListView</item>
+		<item name="android:textColor">@color/material_text_selector</item>
+		<item name="android:textColorPrimary">@color/material_text_selector</item>
+		<item name="android:textColorSecondary">@color/material_text_selector</item>
+		<item name="android:textColorTertiary">@color/material_text_selector</item>
+	</style>
 
 	<style name="MaterialButton.Raised" parent="MaterialButton">
 		<item name="materialColor">@color/material_blue</item>
