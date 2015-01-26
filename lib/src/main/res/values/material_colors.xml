@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 	<color name="material_bg">#eeeeee</color>
+	<color name="material_bg_dark">#303030</color>
 	<color name="material_bg_pressed">#ebebeb</color>
 	<color name="material_disabled">#ffbababa</color>
 	<color name="material_ripple">#ffcacaca</color>

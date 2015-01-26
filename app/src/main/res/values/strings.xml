@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-	<string name="app_name">Material Design</string>
+	<string name="app_name">Material Everywhere</string>
 	<string name="default_color">Default</string>
 	<string name="red">Red</string>
 	<string name="yellow">Yellow</string>

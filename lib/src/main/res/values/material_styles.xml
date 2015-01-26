@@ -2,7 +2,9 @@
 <resources>
 
 	<style name="BaseMaterialTheme"/>
+	<style name="BaseMaterialTheme.Dark"/>
 	<style name="BaseMaterialTheme.NoActionBar"/>
+	<style name="BaseMaterialTheme.Dark.NoActionBar"/>
 
 	<style name="MaterialTheme" parent="BaseMaterialTheme">
 		<item name="android:background">@null</item>
@@ -14,9 +16,29 @@
 		<item name="android:textColorTertiary">@color/material_text_selector</item>
 	</style>
 
+	<style name="MaterialTheme.Dark" parent="BaseMaterialTheme.Dark">
+		<item name="android:background">@null</item>
+		<item name="android:windowBackground">@color/material_bg_dark</item>
+		<item name="android:listViewStyle">@style/MaterialListView</item>
+		<item name="android:textColor">@color/material_text_selector</item>
+		<item name="android:textColorPrimary">@color/material_text_selector</item>
+		<item name="android:textColorSecondary">@color/material_text_selector</item>
+		<item name="android:textColorTertiary">@color/material_text_selector</item>
+	</style>
+
 	<style name="MaterialTheme.NoActionBar" parent="BaseMaterialTheme.NoActionBar">
 		<item name="android:background">@null</item>
 		<item name="android:windowBackground">@color/material_bg</item>
+		<item name="android:listViewStyle">@style/MaterialListView</item>
+		<item name="android:textColor">@color/material_text_selector</item>
+		<item name="android:textColorPrimary">@color/material_text_selector</item>
+		<item name="android:textColorSecondary">@color/material_text_selector</item>
+		<item name="android:textColorTertiary">@color/material_text_selector</item>
+	</style>
+
+	<style name="MaterialTheme.Dark.NoActionBar" parent="BaseMaterialTheme.Dark.NoActionBar">
+		<item name="android:background">@null</item>
+		<item name="android:windowBackground">@color/material_bg_dark</item>
 		<item name="android:listViewStyle">@style/MaterialListView</item>
 		<item name="android:textColor">@color/material_text_selector</item>
 		<item name="android:textColorPrimary">@color/material_text_selector</item>

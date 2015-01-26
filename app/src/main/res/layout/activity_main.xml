@@ -6,12 +6,19 @@
 	xmlns:m="http://schemas.android.com/apk/res-auto"
 	a:orientation="vertical">
 
+	<TextView
+		a:layout_width="wrap_content"
+		a:layout_height="wrap_content"
+		a:layout_gravity="center"
+		a:text="@string/app_name"
+		a:textAppearance="@android:style/TextAppearance.Large" />
+
 	<LinearLayout
 		a:layout_width="match_parent"
 		a:layout_height="0dp"
 		a:layout_weight="1"
-		a:orientation="vertical"
-		a:gravity="center">
+		a:gravity="center"
+		a:orientation="vertical">
 
 		<LinearLayout
 			style="@style/MaterialCard.Padded"
@@ -155,8 +162,8 @@
 			style="@style/MaterialCard.Padded"
 			a:layout_width="wrap_content"
 			a:layout_height="wrap_content"
-			a:clickable="true"
-			a:layout_gravity="center">
+			a:layout_gravity="center"
+			a:clickable="true">
 
 			<TextView
 				a:layout_width="wrap_content"
