@@ -25,9 +25,8 @@ apply plugin: 'maven'
 apply plugin: 'signing'
 
 android {
-    compileSdkVersion 21
-    buildToolsVersion '21.1.1'
-
+    compileSdkVersion android_sdk_version()
+    buildToolsVersion android_build_tools_version()
     defaultConfig {
         minSdkVersion android_min_sdk_version()
         targetSdkVersion android_sdk_version()
@@ -44,7 +43,7 @@ dependencies {
 
 task androidJavadocs(type: Javadoc) {
     source = android.sourceSets.main.java.srcDirs
-    classpath += project.files(android.plugin.getBootClasspath().join(File.pathSeparator))
+    classpath += project.files(android.getBootClasspath().join(File.pathSeparator))
     configurations.compile.each { File file -> classpath += project.files(file.path) }
 }
 

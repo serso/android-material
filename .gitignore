@@ -8,3 +8,4 @@ out/
 .gradle/
 build/
 atlassian-ide-plugin.xml
+local.properties

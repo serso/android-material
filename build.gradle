@@ -13,7 +13,7 @@ public int android_sdk_version() {
 }
 
 public String android_build_tools_version() {
-    return '21.1.1'
+    return '22.0.1'
 }
 
 public String android_min_sdk_version() {
@@ -26,16 +26,23 @@ buildscript {
         mavenCentral()
     }
     dependencies {
-        classpath 'com.android.tools.build:gradle:0.14.2'
+        classpath 'com.android.tools.build:gradle:1.1.3'
     }
 }
 
 allprojects {
     repositories {
-        def androidHome = System.getenv("ANDROID_HOME")
         maven {
-            url "$androidHome/extras/android/m2repository/"
+            url "file://${System.env.ANDROID_HOME}/extras/android/m2repository/"
         }
         mavenCentral()
+    }
+
+    if (!project.hasProperty("ossrhUsername")) {
+        ext.ossrhUsername = "no-username"
+    }
+
+    if (!project.hasProperty("ossrhPassword")) {
+        ext.ossrhPassword = "no-password"
     }
 }
