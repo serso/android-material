@@ -20,9 +20,8 @@
   ~ Site:  http://se.solovyev.org
   -->
 
-<manifest
-	package="org.solovyev.android.material.app"
-	xmlns:android="http://schemas.android.com/apk/res/android">
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+	package="org.solovyev.android.material.app">
 
 	<supports-screens android:smallScreens="true" />
 	<supports-screens android:normalScreens="true" />
@@ -42,6 +41,12 @@
 			<intent-filter>
 				<action android:name="android.intent.action.MAIN" />
 				<category android:name="android.intent.category.LAUNCHER" />
+			</intent-filter>
+		</activity>
+
+		<activity android:name=".ListActivity">
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN" />
 			</intent-filter>
 		</activity>
 
