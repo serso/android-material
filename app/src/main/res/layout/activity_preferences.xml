@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<FrameLayout a:id="@+id/container"
-	style="@style/MaterialActivity"
-	xmlns:a="http://schemas.android.com/apk/res/android"
-	xmlns:tools="http://schemas.android.com/tools"
-	tools:ignore="MergeRootFrame" />
+<FrameLayout
+    xmlns:a="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    a:id="@+id/container"
+    style="@style/MaterialActivity"
+    tools:ignore="MergeRootFrame" />

@@ -1,35 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
-	xmlns:m="http://schemas.android.com/apk/res-auto">
+    xmlns:m="http://schemas.android.com/apk/res-auto">
 
-	<org.solovyev.android.material.preferences.PreferenceCategory android:title="Category #1">
+    <org.solovyev.android.material.preferences.PreferenceCategory android:title="Category #1">
 
-		<org.solovyev.android.material.preferences.Preference
-			android:title="Setting #1"
-			m:materialColor="@color/material_text_selector" />
+        <org.solovyev.android.material.preferences.Preference
+            android:title="Setting #1"
+            m:materialColor="@color/material_text_selector" />
 
-		<org.solovyev.android.material.preferences.Preference
-			android:title="Setting #2"
-			m:materialColor="@color/material_text_selector" />
+        <org.solovyev.android.material.preferences.Preference
+            android:title="Setting #2"
+            m:materialColor="@color/material_text_selector" />
 
-		<org.solovyev.android.material.preferences.Preference
-			android:title="Setting #3"
-			m:materialColor="@color/material_text_selector" />
+        <org.solovyev.android.material.preferences.Preference
+            android:title="Setting #3"
+            m:materialColor="@color/material_text_selector" />
 
-	</org.solovyev.android.material.preferences.PreferenceCategory>
+    </org.solovyev.android.material.preferences.PreferenceCategory>
 
-	<org.solovyev.android.material.preferences.PreferenceCategory android:title="Category #2">
-		<org.solovyev.android.material.preferences.Preference
-			android:title="Setting #1"
-			m:materialColor="@color/material_text_selector" />
+    <org.solovyev.android.material.preferences.PreferenceCategory android:title="Category #2">
+        <org.solovyev.android.material.preferences.Preference
+            android:title="Setting #1"
+            m:materialColor="@color/material_text_selector" />
 
-		<org.solovyev.android.material.preferences.Preference
-			android:title="Setting #2"
-			m:materialColor="@color/material_text_selector" />
+        <org.solovyev.android.material.preferences.Preference
+            android:title="Setting #2"
+            m:materialColor="@color/material_text_selector" />
 
-		<org.solovyev.android.material.preferences.Preference
-			android:title="Setting #3"
-			m:materialColor="@color/material_text_selector" />
-	</org.solovyev.android.material.preferences.PreferenceCategory>
+        <org.solovyev.android.material.preferences.Preference
+            android:title="Setting #3"
+            m:materialColor="@color/material_text_selector" />
+    </org.solovyev.android.material.preferences.PreferenceCategory>
 
 </PreferenceScreen>

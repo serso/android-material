@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
-	style="@style/MaterialCard">
+    style="@style/MaterialCard">
 
-	<ListView
-		style="@style/MaterialListView"
-		android:id="@android:id/list"
-		android:layout_height="match_parent"
-		android:layout_width="match_parent" />
+    <ListView
+        android:id="@android:id/list"
+        style="@style/MaterialListView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
 </FrameLayout>

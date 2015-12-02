@@ -1,17 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<FrameLayout
-    style="@style/MaterialActivity"
-    xmlns:a="http://schemas.android.com/apk/res/android"
-    xmlns:m="http://schemas.android.com/apk/res-auto">
+<FrameLayout style="@style/MaterialActivity">
 
     <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
-                 style="@style/MaterialCard">
+        style="@style/MaterialCard">
 
         <ListView
-            style="@style/MaterialListView"
             android:id="@android:id/list"
-            android:layout_height="match_parent"
-            android:layout_width="match_parent" />
+            style="@style/MaterialListView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
     </FrameLayout>
 </FrameLayout>

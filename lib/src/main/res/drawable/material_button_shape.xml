@@ -16,12 +16,12 @@
 <!-- Used as the canonical button shape. -->
 
 <shape xmlns:android="http://schemas.android.com/apk/res/android"
-	android:shape="rectangle">
-	<corners android:radius="@dimen/control_corner" />
-	<solid android:color="@color/material_button" />
-	<padding
-		android:bottom="@dimen/button_padding_vertical"
-		android:left="@dimen/button_padding_horizontal"
-		android:right="@dimen/button_padding_horizontal"
-		android:top="@dimen/button_padding_vertical" />
+    android:shape="rectangle">
+    <corners android:radius="@dimen/control_corner" />
+    <solid android:color="@color/material_button" />
+    <padding
+        android:bottom="@dimen/button_padding_vertical"
+        android:left="@dimen/button_padding_horizontal"
+        android:right="@dimen/button_padding_horizontal"
+        android:top="@dimen/button_padding_vertical" />
 </shape>

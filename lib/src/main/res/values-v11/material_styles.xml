@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-	<style name="BaseMaterialTheme" parent="android:Theme.Holo.Light"/>
-	<style name="BaseMaterialTheme.Dark" parent="android:Theme.Holo"/>
-	<style name="BaseMaterialTheme.NoActionBar" parent="android:Theme.Holo.Light"/>
-	<style name="BaseMaterialTheme.Dark.NoActionBar" parent="android:Theme.Holo"/>
+
+    <style name="BaseMaterialTheme" parent="android:Theme.Holo.Light" />
+
+    <style name="BaseMaterialTheme.Dark" parent="android:Theme.Holo" />
+
+    <style name="BaseMaterialTheme.NoActionBar" parent="android:Theme.Holo.Light" />
+
+    <style name="BaseMaterialTheme.Dark.NoActionBar" parent="android:Theme.Holo" />
 </resources>

@@ -20,8 +20,9 @@
   ~ Site:  http://se.solovyev.org
   -->
 
-<manifest package="org.solovyev.android.material"
-	xmlns:android="http://schemas.android.com/apk/res/android">
+<manifest
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    package="org.solovyev.android.material">
 
-	<application android:allowBackup="true"/>
+    <application android:allowBackup="true" />
 </manifest>

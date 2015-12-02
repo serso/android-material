@@ -1,185 +1,186 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<LinearLayout style="@style/MaterialActivity"
-	xmlns:a="http://schemas.android.com/apk/res/android"
-	xmlns:m="http://schemas.android.com/apk/res-auto"
-	a:orientation="vertical">
+<LinearLayout
+    xmlns:a="http://schemas.android.com/apk/res/android"
+    xmlns:m="http://schemas.android.com/apk/res-auto"
+    style="@style/MaterialActivity"
+    a:orientation="vertical">
 
-	<TextView
-		a:layout_width="wrap_content"
-		a:layout_height="wrap_content"
-		a:layout_gravity="center"
-		a:text="@string/app_name"
-		a:textAppearance="@android:style/TextAppearance.Large" />
+    <TextView
+        a:layout_width="wrap_content"
+        a:layout_height="wrap_content"
+        a:layout_gravity="center"
+        a:text="@string/app_name"
+        a:textAppearance="@android:style/TextAppearance.Large" />
 
-	<LinearLayout
-		a:layout_width="match_parent"
-		a:layout_height="0dp"
-		a:layout_weight="1"
-		a:gravity="center"
-		a:orientation="vertical">
+    <LinearLayout
+        a:layout_width="match_parent"
+        a:layout_height="0dp"
+        a:layout_weight="1"
+        a:gravity="center"
+        a:orientation="vertical">
 
-		<LinearLayout
-			style="@style/MaterialCard.Padded"
-			a:layout_width="wrap_content"
-			a:layout_height="wrap_content"
-			a:layout_gravity="center"
-			a:orientation="horizontal">
+        <LinearLayout
+            style="@style/MaterialCard.Padded"
+            a:layout_width="wrap_content"
+            a:layout_height="wrap_content"
+            a:layout_gravity="center"
+            a:orientation="horizontal">
 
-			<LinearLayout
-				a:layout_width="wrap_content"
-				a:layout_height="wrap_content"
-				a:orientation="vertical">
+            <LinearLayout
+                a:layout_width="wrap_content"
+                a:layout_height="wrap_content"
+                a:orientation="vertical">
 
-				<org.solovyev.android.material.MaterialButton
-					style="@style/MaterialButton"
-					a:layout_width="wrap_content"
-					a:layout_height="wrap_content"
-					a:text="@string/default_color" />
+                <org.solovyev.android.material.MaterialButton
+                    style="@style/MaterialButton"
+                    a:layout_width="wrap_content"
+                    a:layout_height="wrap_content"
+                    a:text="@string/default_color" />
 
-				<org.solovyev.android.material.MaterialButton
-					style="@style/MaterialButton"
-					a:layout_width="wrap_content"
-					a:layout_height="wrap_content"
-					a:enabled="false"
-					a:text="@string/default_color" />
-			</LinearLayout>
+                <org.solovyev.android.material.MaterialButton
+                    style="@style/MaterialButton"
+                    a:layout_width="wrap_content"
+                    a:layout_height="wrap_content"
+                    a:enabled="false"
+                    a:text="@string/default_color" />
+            </LinearLayout>
 
-			<LinearLayout
-				a:layout_width="wrap_content"
-				a:layout_height="wrap_content"
-				a:orientation="vertical">
+            <LinearLayout
+                a:layout_width="wrap_content"
+                a:layout_height="wrap_content"
+                a:orientation="vertical">
 
-				<org.solovyev.android.material.MaterialButton
-					style="@style/MaterialButton.Raised"
-					a:layout_width="wrap_content"
-					a:layout_height="wrap_content"
-					a:text="@string/red"
-					m:materialColor="@color/material_button_red_selector" />
+                <org.solovyev.android.material.MaterialButton
+                    style="@style/MaterialButton.Raised"
+                    a:layout_width="wrap_content"
+                    a:layout_height="wrap_content"
+                    a:text="@string/red"
+                    m:materialColor="@color/material_button_red_selector" />
 
-				<org.solovyev.android.material.MaterialButton
-					style="@style/MaterialButton.Raised"
-					a:layout_width="wrap_content"
-					a:layout_height="wrap_content"
-					a:enabled="false"
-					a:text="@string/red"
-					m:materialColor="@color/material_button_red_selector" />
-			</LinearLayout>
+                <org.solovyev.android.material.MaterialButton
+                    style="@style/MaterialButton.Raised"
+                    a:layout_width="wrap_content"
+                    a:layout_height="wrap_content"
+                    a:enabled="false"
+                    a:text="@string/red"
+                    m:materialColor="@color/material_button_red_selector" />
+            </LinearLayout>
 
-			<LinearLayout
-				a:layout_width="wrap_content"
-				a:layout_height="wrap_content"
-				a:orientation="vertical">
+            <LinearLayout
+                a:layout_width="wrap_content"
+                a:layout_height="wrap_content"
+                a:orientation="vertical">
 
-				<org.solovyev.android.material.MaterialButton
-					style="@style/MaterialButton.Raised"
-					a:layout_width="wrap_content"
-					a:layout_height="wrap_content"
-					a:text="@string/yellow"
-					m:materialColor="@color/material_button_yellow_selector" />
+                <org.solovyev.android.material.MaterialButton
+                    style="@style/MaterialButton.Raised"
+                    a:layout_width="wrap_content"
+                    a:layout_height="wrap_content"
+                    a:text="@string/yellow"
+                    m:materialColor="@color/material_button_yellow_selector" />
 
-				<org.solovyev.android.material.MaterialButton
-					style="@style/MaterialButton.Raised"
-					a:layout_width="wrap_content"
-					a:layout_height="wrap_content"
-					a:enabled="false"
-					a:text="@string/yellow"
-					m:materialColor="@color/material_button_yellow_selector" />
-			</LinearLayout>
+                <org.solovyev.android.material.MaterialButton
+                    style="@style/MaterialButton.Raised"
+                    a:layout_width="wrap_content"
+                    a:layout_height="wrap_content"
+                    a:enabled="false"
+                    a:text="@string/yellow"
+                    m:materialColor="@color/material_button_yellow_selector" />
+            </LinearLayout>
 
-			<LinearLayout
-				a:layout_width="wrap_content"
-				a:layout_height="wrap_content"
-				a:orientation="vertical">
+            <LinearLayout
+                a:layout_width="wrap_content"
+                a:layout_height="wrap_content"
+                a:orientation="vertical">
 
-				<org.solovyev.android.material.MaterialButton
-					style="@style/MaterialButton.Raised"
-					a:layout_width="wrap_content"
-					a:layout_height="wrap_content"
-					a:text="@string/purple"
-					m:materialColor="@color/material_button_purple_selector" />
+                <org.solovyev.android.material.MaterialButton
+                    style="@style/MaterialButton.Raised"
+                    a:layout_width="wrap_content"
+                    a:layout_height="wrap_content"
+                    a:text="@string/purple"
+                    m:materialColor="@color/material_button_purple_selector" />
 
-				<org.solovyev.android.material.MaterialButton
-					style="@style/MaterialButton.Raised"
-					a:layout_width="wrap_content"
-					a:layout_height="wrap_content"
-					a:enabled="false"
-					a:text="@string/purple"
-					m:materialColor="@color/material_button_purple_selector" />
-			</LinearLayout>
+                <org.solovyev.android.material.MaterialButton
+                    style="@style/MaterialButton.Raised"
+                    a:layout_width="wrap_content"
+                    a:layout_height="wrap_content"
+                    a:enabled="false"
+                    a:text="@string/purple"
+                    m:materialColor="@color/material_button_purple_selector" />
+            </LinearLayout>
 
-			<LinearLayout
-				a:layout_width="wrap_content"
-				a:layout_height="wrap_content"
-				a:orientation="vertical">
+            <LinearLayout
+                a:layout_width="wrap_content"
+                a:layout_height="wrap_content"
+                a:orientation="vertical">
 
-				<org.solovyev.android.material.MaterialButton
-					style="@style/MaterialButton.Raised"
-					a:layout_width="wrap_content"
-					a:layout_height="wrap_content"
-					a:text="@string/blue"
-					m:materialColor="@color/material_button_blue_selector" />
+                <org.solovyev.android.material.MaterialButton
+                    style="@style/MaterialButton.Raised"
+                    a:layout_width="wrap_content"
+                    a:layout_height="wrap_content"
+                    a:text="@string/blue"
+                    m:materialColor="@color/material_button_blue_selector" />
 
-				<org.solovyev.android.material.MaterialButton
-					style="@style/MaterialButton.Raised"
-					a:layout_width="wrap_content"
-					a:layout_height="wrap_content"
-					a:enabled="false"
-					a:text="@string/blue"
-					m:materialColor="@color/material_button_blue_selector" />
-			</LinearLayout>
+                <org.solovyev.android.material.MaterialButton
+                    style="@style/MaterialButton.Raised"
+                    a:layout_width="wrap_content"
+                    a:layout_height="wrap_content"
+                    a:enabled="false"
+                    a:text="@string/blue"
+                    m:materialColor="@color/material_button_blue_selector" />
+            </LinearLayout>
 
-			<LinearLayout
-				a:layout_width="wrap_content"
-				a:layout_height="wrap_content"
-				a:orientation="vertical">
+            <LinearLayout
+                a:layout_width="wrap_content"
+                a:layout_height="wrap_content"
+                a:orientation="vertical">
 
-				<org.solovyev.android.material.MaterialButton
-					style="@style/MaterialButton.Raised"
-					a:layout_width="wrap_content"
-					a:layout_height="wrap_content"
-					a:text="@string/green"
-					m:materialColor="@color/material_button_green_selector" />
+                <org.solovyev.android.material.MaterialButton
+                    style="@style/MaterialButton.Raised"
+                    a:layout_width="wrap_content"
+                    a:layout_height="wrap_content"
+                    a:text="@string/green"
+                    m:materialColor="@color/material_button_green_selector" />
 
-				<org.solovyev.android.material.MaterialButton
-					style="@style/MaterialButton.Raised"
-					a:layout_width="wrap_content"
-					a:layout_height="wrap_content"
-					a:enabled="false"
-					a:text="@string/green"
-					m:materialColor="@color/material_button_green_selector" />
-			</LinearLayout>
+                <org.solovyev.android.material.MaterialButton
+                    style="@style/MaterialButton.Raised"
+                    a:layout_width="wrap_content"
+                    a:layout_height="wrap_content"
+                    a:enabled="false"
+                    a:text="@string/green"
+                    m:materialColor="@color/material_button_green_selector" />
+            </LinearLayout>
 
-		</LinearLayout>
+        </LinearLayout>
 
-		<FrameLayout
-			style="@style/MaterialCard.Padded"
-			a:layout_width="wrap_content"
-			a:layout_height="wrap_content"
-			a:layout_gravity="center"
-			a:clickable="true">
+        <FrameLayout
+            style="@style/MaterialCard.Padded"
+            a:layout_width="wrap_content"
+            a:layout_height="wrap_content"
+            a:layout_gravity="center"
+            a:clickable="true">
 
-			<TextView
-				a:layout_width="wrap_content"
-				a:layout_height="wrap_content"
-				a:text="@string/clickable_card" />
-		</FrameLayout>
-	</LinearLayout>
+            <TextView
+                a:layout_width="wrap_content"
+                a:layout_height="wrap_content"
+                a:text="@string/clickable_card" />
+        </FrameLayout>
+    </LinearLayout>
 
-	<FrameLayout
-		a:id="@+id/buttons_container"
-		style="@style/MaterialCard.Padded"
-		a:layout_width="wrap_content"
-		a:layout_height="wrap_content"
-		a:layout_gravity="bottom|end"
-		a:orientation="horizontal">
+    <FrameLayout
+        a:id="@+id/buttons_container"
+        style="@style/MaterialCard.Padded"
+        a:layout_width="wrap_content"
+        a:layout_height="wrap_content"
+        a:layout_gravity="bottom|end"
+        a:orientation="horizontal">
 
-		<ImageView
-			a:id="@+id/preferences_button"
-			a:layout_width="wrap_content"
-			a:layout_height="wrap_content"
-			a:contentDescription="@null"
-			a:src="@drawable/ic_setting_selector" />
+        <ImageView
+            a:id="@+id/preferences_button"
+            a:layout_width="wrap_content"
+            a:layout_height="wrap_content"
+            a:contentDescription="@null"
+            a:src="@drawable/ic_setting_selector" />
 
-	</FrameLayout>
+    </FrameLayout>
 </LinearLayout>
