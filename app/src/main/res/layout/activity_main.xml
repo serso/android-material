@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<LinearLayout
-    xmlns:a="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:a="http://schemas.android.com/apk/res/android"
     xmlns:m="http://schemas.android.com/apk/res-auto"
     style="@style/MaterialActivity"
     a:orientation="vertical">
@@ -75,19 +74,19 @@
                 a:layout_gravity="center"
                 a:orientation="horizontal">
 
-                <org.solovyev.android.material.MaterialButton
+                <org.solovyev.android.material.MaterialImageButton
                     style="@style/MaterialButton.Raised"
                     a:layout_width="wrap_content"
                     a:layout_height="wrap_content"
-                    a:text="@string/yellow"
+                    a:src="@drawable/ic_setting"
                     m:materialColor="@color/material_button_yellow_selector" />
 
-                <org.solovyev.android.material.MaterialButton
+                <org.solovyev.android.material.MaterialImageButton
                     style="@style/MaterialButton.Raised"
                     a:layout_width="wrap_content"
                     a:layout_height="wrap_content"
                     a:enabled="false"
-                    a:text="@string/yellow"
+                    a:src="@drawable/ic_setting"
                     m:materialColor="@color/material_button_yellow_selector" />
             </LinearLayout>
 
